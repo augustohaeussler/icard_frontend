@@ -1,6 +1,13 @@
-import {} from '../layouts'
+import {AdminLayout} from '../layouts'
+import {LoginAdmin} from '../pages/Admin'
 
 
-const routesAdmin = []
+const routesAdmin = [
+    {
+        path: '/admin',
+        layout: AdminLayout,
+        component: LoginAdmin,
+    },
+]
 
-export defaul routesAdmin
+export default routesAdmin

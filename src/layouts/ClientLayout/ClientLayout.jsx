@@ -6,8 +6,11 @@ export function ClientLayout(props) {
     const { children } = props
 
     return (
-    <div>ClientLayout</div>
+    <div>
+      ClientLayout
+      {children}  
+    </div>
 
-    {children}
+    
   )
 }

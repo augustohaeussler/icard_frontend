@@ -1,3 +1,13 @@
-const routesClient = []
+import {ClientLayout} from '../layouts'
+import {Home} from '../pages/Client'
 
-export defaul routesClient 
+
+const routesClient = [
+    {
+        path: '/',
+        layout: ClientLayout,
+        component: Home,
+    },
+]
+
+export default routesClient
